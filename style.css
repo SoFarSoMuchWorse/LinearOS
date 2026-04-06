@@ -96,3 +96,7 @@ a.button:focus, a[role="button"]:focus {
   outline: 2px solid skyblue;
   outline-offset: 2px;
 }
+
+img {
+  border-radius: 60px;
+}
