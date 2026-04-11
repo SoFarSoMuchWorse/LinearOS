@@ -2,7 +2,8 @@
 > A browser-based simulated operating system featuring quirky utility apps, AI desktop buddies, and
 TextBase — a custom markup language for building websites.
 ## Key Pages
-- /: Main OS interface
+- /: Landing page
+- /game.html: Main OS interface
 - /textbasedocs.html: TextBase markup language documentation
 - /besttextbasesites.html: Community TextBase sites
 - /what-is-timmys-skidibi-adventure.html: About the platformer game
