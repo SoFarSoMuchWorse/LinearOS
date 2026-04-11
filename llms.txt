@@ -8,3 +8,4 @@ TextBase — a custom markup language for building websites.
 - /besttextbasesites.html: Community TextBase sites
 - /what-is-timmys-skidibi-adventure.html: About the platformer game
 - /changelog.html: Project updates
+- /glitchmode.html: A version of the landing page for the support AI to learn from
