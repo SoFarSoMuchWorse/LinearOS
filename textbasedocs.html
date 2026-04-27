@@ -28,6 +28,9 @@
         <h3>Site Links</h3>
         <p>To add links to other TextBase sites, use the LinkRel tag. Example TextBase code line: </p>
         <p>LinkRel: www.new-fonts-in-textbase.com
+        <h3>Buttons</h3>
+        <p>Use the "Button: " tag, and then your ID, which you may use to check if it is pressed. This will display a button that says "Click me!". Example TextBase code line: </p>
+        <p>Button: ButtonID</p>
         <h2>Site Styles and Personality</h2>
         <h3>Text fonts</h3>
         <p>To set the text font, use the TextFont tag. This can be set to Serif, Sans Serif, Handwriting, Pixel, and more. Example TextBase code line: </p>
@@ -53,10 +56,33 @@
         <h3>Making Sophie React</h3>
         <p>You can make Sophie react by using the SophieAction tag. This does the same thing as TimmyAction. Example TextBase code line: </p>
         <p>SophieAction: Flip</p>
-        <h2>Site Personalization (v1.1 and after)</h2>
-        <h3>Using Display Names (v1.1 and after)</h3>
+        <h2>Site Scripting and Personalization</h2>
+        <h3>Using Display Names</h3>
         <p>To use a display name in your heading, label, paragraph, or scrolling text, simply use DisplayName(). This can be used anywhere in your site. Example TextBase code line: </p>
         <p>Heading2: Ready to Get Started, DisplayName()?</p>
+        <h3>Creating Variables</h3>
+        <p>To do this, type "CreateVariable: " and then your variable name, which you may use later to update the variable or check if it is equal to a certain value. Keep in mind that TextBase is NOT case sensitive, so variableName, VariableName, and variablename are considered the same thing. Example TextBase code line: </p>
+        <p>CreateVariable: VariableName</p>
+        <h3>Setting Variables</h3>
+        <p>Type the variable name, " = ", and then your value. Example: </p>
+        <p>HelloString = F*ck you</p>
+        <h3>Displaying Variables</h3>
+        <p>Use "DisplayVariable: " to display a variable's value even when changed, and use "DisplayVariableStatic: " to display the variable's value when this line is run. After your tag of choice, use the variable name. Example:</p>
+        <p>DisplayVariable: Clicks</p>
+        <h3>Incrementing and Decrementing Variables</h3>
+        <p>To increment or decrement your variable, type your variable's name, an apostrophe, and "Increment" or "Decrement". Example: </p>
+        <p>AddVariable'Increment</p>
+        <p>SubtractVariable"Decrement</p>
+        <h3>Adding and Subtracting From Variables</h3>
+        <p>Type your variable's name, "+=" or "-=", and the value you want to add or subtract to it. Example: </p>
+        <p>AddVar += 5</p>
+        <p>SubVar -= 2</p>
+        <h3>Button Press Conditions</h3>
+        <p>If statements trigger TextBase code when a condition is met. To trigger TextBase code when a button is pressed, use "IF ButtonPress'ButtonID => insert code here". Replace "ButtonID" with your button's ID and "insert code here" with your own TextBase code. Example TextBase code line:</p>
+        <p>IF ButtonPress'ClickButton => Clicks'Increment</p>
+        <h3>Variable == Value Conditions</h3>
+        <p>To check if any value (including a variable) is equal to any other value (including a variable), type "IF value here = value here => code here". Replace "value here" with your own values, and "code here" with your own TextBase code. Example: </p>
+        <p>IF Clicks == 50 => Button: Button3</p>
         <a href="game.html" class="button">I understand now, take me to the OS</a>
         <a href="index.html" class="button">I understand now, take me back to the main page</a>
         <img src="jointoday.png">
