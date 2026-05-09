@@ -1,4 +1,4 @@
-# LinearOS
+# WataYingix OS
 > A browser-based simulated operating system featuring quirky utility apps, AI desktop buddies, and
 TextBase — a custom markup language for building websites.
 ## Key Pages
